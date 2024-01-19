@@ -30,7 +30,7 @@ class Student:
 
 
 def get_student() -> Student:
-    name:str = ("Name: ")
+    name:str = input("Name: ")
     house:str = input("House: ")
     student:Student = Student(name, house)
     return student
