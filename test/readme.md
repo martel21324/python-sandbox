@@ -1,5 +1,7 @@
-#exemples d'utilisation de pytest
+exemples d'utilisation de pytest
+
 https://docs.pytest.org/en/7.4.x/contents.html
+
 pip install -U pytest
 
 pour tester l'ensemble des tests:
