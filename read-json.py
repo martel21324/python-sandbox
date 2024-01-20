@@ -1,12 +1,14 @@
-import os
 import json
+import os
 from dataclasses import dataclass
+
 
 @dataclass
 class Person:
     name: str
     age: int
     city: str
+
 
 # Specify the path to your JSON file
 # json_file_path = 'path/to/your/data.json'
@@ -15,10 +17,10 @@ class Person:
 script_dir = os.path.dirname(__file__)
 
 # Specify the relative path to your JSON file
-json_file_path = os.path.join(script_dir, 'data.json')
+json_file_path = os.path.join(script_dir, "data.json")
 
 # Open the file and load the JSON data
-with open(json_file_path, 'r', encoding='utf-8') as file:
+with open(json_file_path, "r", encoding="utf-8") as file:
     json_data = json.load(file)
 
 # Print the deserialized data
