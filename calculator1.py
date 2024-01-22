@@ -5,7 +5,7 @@ def square(n:float) -> float:
 
 
 def main():
-    x = int(input("What's x? "))
+    x = float(input("What's x? "))
     print("x squared is", square(x))
 
 
